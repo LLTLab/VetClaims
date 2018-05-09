@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>sentenceRoleTypeSystem</name>
+    <types>
+        <typeDescription>
+            <name>luima.users.Walker.serviceRelated.EvidenceBasedReasoningSentence</name>
+            <description>Type defined in luima.users.Walker.serviceRelated</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>luima.users.Walker.serviceRelated.EvidenceSentence</name>
+            <description>Type defined in luima.users.Walker.serviceRelated</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+	<typeDescription>
+            <name>webanno.custom.Citation</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>webanno.custom.EvidenceBasedFindingSentence</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>webanno.custom.LegalRuleSentence</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+    </types>
+</typeSystemDescription>
